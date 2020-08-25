@@ -148,9 +148,6 @@ def compare_protomes(Proteomes,p=0.05,rc=1.3):
     # Heatmaps for sequences unique to Src or Abl
     vennpair_Hmaps = ['Src', 'Abl']
     Compare.venn_heatmaps(vennpair_Hmaps,max_val[3])
-    Lock_Residues = ['KR','DE','P','A']
-
-
     return Compare
 
 def main():
@@ -160,6 +157,3 @@ def main():
 
 
 Proteomes, Compare = main()
-# BgData = pd.read_csv('data/BackgroundUnenrichedProteomics.tsv',sep='\t')
-# Bg = BackgroundProteome(BgData,'MS Data Background')
-# ControlData = pd.read_csv('data/ControlPhosphoproteomicsData.csv')
