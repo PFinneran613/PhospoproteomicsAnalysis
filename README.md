@@ -5,9 +5,9 @@ This is the code used to analyze data in the paper "Bimodal evolution of Src and
 Running "PhosphoPeptide Analysis Script.py" will generate all files found in the manuscript.
 
 
-Required Modules
-  pandas
-  numpy
-  seaborn
-  matplotlib
+Required Modules:
+  pandas,
+  numpy,
+  seaborn,
+  matplotlib,
   scipy
